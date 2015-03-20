@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4005880E1ABBA92600858D6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005880D1ABBA92600858D6C /* AppDelegate.swift */; };
+		400588101ABBA92600858D6C /* Widoo-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 4005880F1ABBA92600858D6C /* Widoo-Prefix.pch */; };
+		400588121ABBA92600858D6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400588111ABBA92600858D6C /* Images.xcassets */; };
+		400588151ABBA92600858D6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400588131ABBA92600858D6C /* LaunchScreen.xib */; };
+		400588211ABBA92600858D6C /* WidooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400588201ABBA92600858D6C /* WidooTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4005881B1ABBA92600858D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 400588001ABBA92600858D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400588071ABBA92600858D6C;
+			remoteInfo = Widoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		400588081ABBA92600858D6C /* Widoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4005880C1ABBA92600858D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4005880D1ABBA92600858D6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4005880F1ABBA92600858D6C /* Widoo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Widoo-Prefix.pch"; sourceTree = "<group>"; };
+		400588111ABBA92600858D6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		400588141ABBA92600858D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4005881A1ABBA92600858D6C /* WidooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4005881F1ABBA92600858D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400588201ABBA92600858D6C /* WidooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidooTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400588051ABBA92600858D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400588171ABBA92600858D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400587FF1ABBA92600858D6C = {
+			isa = PBXGroup;
+			children = (
+				4005880A1ABBA92600858D6C /* Widoo */,
+				4005881D1ABBA92600858D6C /* WidooTests */,
+				400588091ABBA92600858D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400588091ABBA92600858D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				400588081ABBA92600858D6C /* Widoo.app */,
+				4005881A1ABBA92600858D6C /* WidooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4005880A1ABBA92600858D6C /* Widoo */ = {
+			isa = PBXGroup;
+			children = (
+				4005880D1ABBA92600858D6C /* AppDelegate.swift */,
+				4005880F1ABBA92600858D6C /* Widoo-Prefix.pch */,
+				400588111ABBA92600858D6C /* Images.xcassets */,
+				400588131ABBA92600858D6C /* LaunchScreen.xib */,
+				4005880B1ABBA92600858D6C /* Supporting Files */,
+			);
+			path = Widoo;
+			sourceTree = "<group>";
+		};
+		4005880B1ABBA92600858D6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4005880C1ABBA92600858D6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4005881D1ABBA92600858D6C /* WidooTests */ = {
+			isa = PBXGroup;
+			children = (
+				400588201ABBA92600858D6C /* WidooTests.swift */,
+				4005881E1ABBA92600858D6C /* Supporting Files */,
+			);
+			path = WidooTests;
+			sourceTree = "<group>";
+		};
+		4005881E1ABBA92600858D6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4005881F1ABBA92600858D6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		400588071ABBA92600858D6C /* Widoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400588241ABBA92600858D6C /* Build configuration list for PBXNativeTarget "Widoo" */;
+			buildPhases = (
+				400588041ABBA92600858D6C /* Sources */,
+				400588051ABBA92600858D6C /* Frameworks */,
+				400588061ABBA92600858D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widoo;
+			productName = Widoo;
+			productReference = 400588081ABBA92600858D6C /* Widoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		400588191ABBA92600858D6C /* WidooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400588271ABBA92600858D6C /* Build configuration list for PBXNativeTarget "WidooTests" */;
+			buildPhases = (
+				400588161ABBA92600858D6C /* Sources */,
+				400588171ABBA92600858D6C /* Frameworks */,
+				400588181ABBA92600858D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4005881C1ABBA92600858D6C /* PBXTargetDependency */,
+			);
+			name = WidooTests;
+			productName = WidooTests;
+			productReference = 4005881A1ABBA92600858D6C /* WidooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		400588001ABBA92600858D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Michael Abdallah-Minciotti";
+				TargetAttributes = {
+					400588071ABBA92600858D6C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					400588191ABBA92600858D6C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 400588071ABBA92600858D6C;
+					};
+				};
+			};
+			buildConfigurationList = 400588031ABBA92600858D6C /* Build configuration list for PBXProject "Widoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400587FF1ABBA92600858D6C;
+			productRefGroup = 400588091ABBA92600858D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400588071ABBA92600858D6C /* Widoo */,
+				400588191ABBA92600858D6C /* WidooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400588061ABBA92600858D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400588101ABBA92600858D6C /* Widoo-Prefix.pch in Resources */,
+				400588151ABBA92600858D6C /* LaunchScreen.xib in Resources */,
+				400588121ABBA92600858D6C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400588181ABBA92600858D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		400588041ABBA92600858D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4005880E1ABBA92600858D6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400588161ABBA92600858D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400588211ABBA92600858D6C /* WidooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4005881C1ABBA92600858D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 400588071ABBA92600858D6C /* Widoo */;
+			targetProxy = 4005881B1ABBA92600858D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		400588131ABBA92600858D6C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400588141ABBA92600858D6C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		400588221ABBA92600858D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		400588231ABBA92600858D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		400588251ABBA92600858D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Widoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		400588261ABBA92600858D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Widoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		400588281ABBA92600858D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WidooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Widoo.app/Widoo";
+			};
+			name = Debug;
+		};
+		400588291ABBA92600858D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WidooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Widoo.app/Widoo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		400588031ABBA92600858D6C /* Build configuration list for PBXProject "Widoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400588221ABBA92600858D6C /* Debug */,
+				400588231ABBA92600858D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400588241ABBA92600858D6C /* Build configuration list for PBXNativeTarget "Widoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400588251ABBA92600858D6C /* Debug */,
+				400588261ABBA92600858D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		400588271ABBA92600858D6C /* Build configuration list for PBXNativeTarget "WidooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400588281ABBA92600858D6C /* Debug */,
+				400588291ABBA92600858D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 400588001ABBA92600858D6C /* Project object */;
+}
