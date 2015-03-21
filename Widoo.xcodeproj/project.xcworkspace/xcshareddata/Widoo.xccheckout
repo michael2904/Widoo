@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0D89AEB4-452E-47D8-911C-D8C9C605A28D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Widoo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DDD51B212574AAFD3D2B05B731046F0FC4168927</key>
+		<string>https://github.com/michael2904/Widoo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Widoo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DDD51B212574AAFD3D2B05B731046F0FC4168927</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/michael2904/Widoo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DDD51B212574AAFD3D2B05B731046F0FC4168927</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DDD51B212574AAFD3D2B05B731046F0FC4168927</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WidooApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
