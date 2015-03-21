@@ -9,9 +9,34 @@
 /* Begin PBXBuildFile section */
 		4005880E1ABBA92600858D6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005880D1ABBA92600858D6C /* AppDelegate.swift */; };
 		400588101ABBA92600858D6C /* Widoo-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 4005880F1ABBA92600858D6C /* Widoo-Prefix.pch */; };
-		400588121ABBA92600858D6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400588111ABBA92600858D6C /* Images.xcassets */; };
 		400588151ABBA92600858D6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400588131ABBA92600858D6C /* LaunchScreen.xib */; };
 		400588211ABBA92600858D6C /* WidooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400588201ABBA92600858D6C /* WidooTests.swift */; };
+		4005882B1ABBA93100858D6C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4005882A1ABBA93100858D6C /* AudioToolbox.framework */; };
+		4005882D1ABBA95700858D6C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4005882C1ABBA95700858D6C /* CFNetwork.framework */; };
+		4005882F1ABBA95D00858D6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4005882E1ABBA95D00858D6C /* CoreGraphics.framework */; };
+		400588311ABBA96400858D6C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588301ABBA96400858D6C /* CoreLocation.framework */; };
+		400588331ABBA97200858D6C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588321ABBA97200858D6C /* MobileCoreServices.framework */; };
+		400588351ABBA97D00858D6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588341ABBA97D00858D6C /* QuartzCore.framework */; };
+		400588371ABBA98500858D6C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588361ABBA98500858D6C /* Security.framework */; };
+		4005883C1ABBA9C000858D6C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588381ABBA9C000858D6C /* libsqlite3.dylib */; };
+		4005883D1ABBA9C000858D6C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588391ABBA9C000858D6C /* libz.dylib */; };
+		4005883E1ABBA9C000858D6C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4005883A1ABBA9C000858D6C /* StoreKit.framework */; };
+		4005883F1ABBA9C000858D6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4005883B1ABBA9C000858D6C /* SystemConfiguration.framework */; };
+		400588411ABBAA2600858D6C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588401ABBAA2600858D6C /* Parse.framework */; };
+		4005884B1ABBAE6100858D6C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588461ABBAE6100858D6C /* Bolts.framework */; };
+		4005884C1ABBAE6100858D6C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588471ABBAE6100858D6C /* Parse.framework */; };
+		4005884D1ABBAE6100858D6C /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588481ABBAE6100858D6C /* ParseCrashReporting.framework */; };
+		4005884E1ABBAE6100858D6C /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588491ABBAE6100858D6C /* ParseFacebookUtils.framework */; };
+		4005884F1ABBAE6100858D6C /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4005884A1ABBAE6100858D6C /* ParseUI.framework */; };
+		400588511ABBD08B00858D6C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400588501ABBD08B00858D6C /* Storyboard.storyboard */; };
+		400588531ABBD64500858D6C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588521ABBD64500858D6C /* Accounts.framework */; };
+		400588551ABBD64F00858D6C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588541ABBD64F00858D6C /* Social.framework */; };
+		400588591ABBD6F000858D6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400588581ABBD6F000858D6C /* SignUpViewController.swift */; };
+		4005885B1ABBDB7200858D6C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005885A1ABBDB7200858D6C /* LoginViewController.swift */; };
+		4005885D1ABC6CFB00858D6C /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005885C1ABC6CFB00858D6C /* ProfilViewController.swift */; };
+		400588631ABC9E9400858D6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400588621ABC9E9400858D6C /* Images.xcassets */; };
+		400588651ABCA6C900858D6C /* widoo_rouge.png in Resources */ = {isa = PBXBuildFile; fileRef = 400588641ABCA6C900858D6C /* widoo_rouge.png */; };
+		400588671ABCA6EF00858D6C /* widoo_rougeCroped.png in Resources */ = {isa = PBXBuildFile; fileRef = 400588661ABCA6EF00858D6C /* widoo_rougeCroped.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +54,37 @@
 		4005880C1ABBA92600858D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4005880D1ABBA92600858D6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4005880F1ABBA92600858D6C /* Widoo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Widoo-Prefix.pch"; sourceTree = "<group>"; };
-		400588111ABBA92600858D6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		400588141ABBA92600858D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4005881A1ABBA92600858D6C /* WidooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4005881F1ABBA92600858D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		400588201ABBA92600858D6C /* WidooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidooTests.swift; sourceTree = "<group>"; };
+		4005882A1ABBA93100858D6C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4005882C1ABBA95700858D6C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4005882E1ABBA95D00858D6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		400588301ABBA96400858D6C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		400588321ABBA97200858D6C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		400588341ABBA97D00858D6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		400588361ABBA98500858D6C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		400588381ABBA9C000858D6C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		400588391ABBA9C000858D6C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4005883A1ABBA9C000858D6C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4005883B1ABBA9C000858D6C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		400588401ABBAA2600858D6C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		400588431ABBAABD00858D6C /* Widoo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Widoo-Bridging-Header.h"; sourceTree = "<group>"; };
+		400588461ABBAE6100858D6C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		400588471ABBAE6100858D6C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		400588481ABBAE6100858D6C /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		400588491ABBAE6100858D6C /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		4005884A1ABBAE6100858D6C /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		400588501ABBD08B00858D6C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		400588521ABBD64500858D6C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		400588541ABBD64F00858D6C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		400588581ABBD6F000858D6C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4005885A1ABBDB7200858D6C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4005885C1ABC6CFB00858D6C /* ProfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		400588621ABC9E9400858D6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		400588641ABCA6C900858D6C /* widoo_rouge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widoo_rouge.png; sourceTree = "<group>"; };
+		400588661ABCA6EF00858D6C /* widoo_rougeCroped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widoo_rougeCroped.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +92,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400588551ABBD64F00858D6C /* Social.framework in Frameworks */,
+				400588531ABBD64500858D6C /* Accounts.framework in Frameworks */,
+				4005883C1ABBA9C000858D6C /* libsqlite3.dylib in Frameworks */,
+				4005884D1ABBAE6100858D6C /* ParseCrashReporting.framework in Frameworks */,
+				4005883D1ABBA9C000858D6C /* libz.dylib in Frameworks */,
+				4005883E1ABBA9C000858D6C /* StoreKit.framework in Frameworks */,
+				4005883F1ABBA9C000858D6C /* SystemConfiguration.framework in Frameworks */,
+				400588371ABBA98500858D6C /* Security.framework in Frameworks */,
+				400588351ABBA97D00858D6C /* QuartzCore.framework in Frameworks */,
+				400588331ABBA97200858D6C /* MobileCoreServices.framework in Frameworks */,
+				4005884B1ABBAE6100858D6C /* Bolts.framework in Frameworks */,
+				4005884F1ABBAE6100858D6C /* ParseUI.framework in Frameworks */,
+				400588311ABBA96400858D6C /* CoreLocation.framework in Frameworks */,
+				4005882F1ABBA95D00858D6C /* CoreGraphics.framework in Frameworks */,
+				4005884C1ABBAE6100858D6C /* Parse.framework in Frameworks */,
+				4005882D1ABBA95700858D6C /* CFNetwork.framework in Frameworks */,
+				400588411ABBAA2600858D6C /* Parse.framework in Frameworks */,
+				4005884E1ABBAE6100858D6C /* ParseFacebookUtils.framework in Frameworks */,
+				4005882B1ABBA93100858D6C /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +127,9 @@
 		400587FF1ABBA92600858D6C = {
 			isa = PBXGroup;
 			children = (
+				400588661ABCA6EF00858D6C /* widoo_rougeCroped.png */,
+				400588641ABCA6C900858D6C /* widoo_rouge.png */,
+				400588421ABBAA3A00858D6C /* Frameworks */,
 				4005880A1ABBA92600858D6C /* Widoo */,
 				4005881D1ABBA92600858D6C /* WidooTests */,
 				400588091ABBA92600858D6C /* Products */,
@@ -75,11 +148,16 @@
 		4005880A1ABBA92600858D6C /* Widoo */ = {
 			isa = PBXGroup;
 			children = (
+				400588431ABBAABD00858D6C /* Widoo-Bridging-Header.h */,
 				4005880D1ABBA92600858D6C /* AppDelegate.swift */,
 				4005880F1ABBA92600858D6C /* Widoo-Prefix.pch */,
-				400588111ABBA92600858D6C /* Images.xcassets */,
 				400588131ABBA92600858D6C /* LaunchScreen.xib */,
+				400588621ABC9E9400858D6C /* Images.xcassets */,
 				4005880B1ABBA92600858D6C /* Supporting Files */,
+				400588501ABBD08B00858D6C /* Storyboard.storyboard */,
+				400588581ABBD6F000858D6C /* SignUpViewController.swift */,
+				4005885A1ABBDB7200858D6C /* LoginViewController.swift */,
+				4005885C1ABC6CFB00858D6C /* ProfilViewController.swift */,
 			);
 			path = Widoo;
 			sourceTree = "<group>";
@@ -107,6 +185,32 @@
 				4005881F1ABBA92600858D6C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		400588421ABBAA3A00858D6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				400588541ABBD64F00858D6C /* Social.framework */,
+				400588521ABBD64500858D6C /* Accounts.framework */,
+				400588461ABBAE6100858D6C /* Bolts.framework */,
+				400588471ABBAE6100858D6C /* Parse.framework */,
+				400588481ABBAE6100858D6C /* ParseCrashReporting.framework */,
+				400588491ABBAE6100858D6C /* ParseFacebookUtils.framework */,
+				4005884A1ABBAE6100858D6C /* ParseUI.framework */,
+				400588401ABBAA2600858D6C /* Parse.framework */,
+				400588381ABBA9C000858D6C /* libsqlite3.dylib */,
+				400588391ABBA9C000858D6C /* libz.dylib */,
+				4005883A1ABBA9C000858D6C /* StoreKit.framework */,
+				4005883B1ABBA9C000858D6C /* SystemConfiguration.framework */,
+				400588361ABBA98500858D6C /* Security.framework */,
+				400588341ABBA97D00858D6C /* QuartzCore.framework */,
+				400588321ABBA97200858D6C /* MobileCoreServices.framework */,
+				400588301ABBA96400858D6C /* CoreLocation.framework */,
+				4005882E1ABBA95D00858D6C /* CoreGraphics.framework */,
+				4005882C1ABBA95700858D6C /* CFNetwork.framework */,
+				4005882A1ABBA93100858D6C /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +262,7 @@
 				TargetAttributes = {
 					400588071ABBA92600858D6C = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 2S3D8J8M3T;
 					};
 					400588191ABBA92600858D6C = {
 						CreatedOnToolsVersion = 6.2;
@@ -189,9 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400588671ABCA6EF00858D6C /* widoo_rougeCroped.png in Resources */,
 				400588101ABBA92600858D6C /* Widoo-Prefix.pch in Resources */,
+				400588631ABC9E9400858D6C /* Images.xcassets in Resources */,
+				400588651ABCA6C900858D6C /* widoo_rouge.png in Resources */,
+				400588511ABBD08B00858D6C /* Storyboard.storyboard in Resources */,
 				400588151ABBA92600858D6C /* LaunchScreen.xib in Resources */,
-				400588121ABBA92600858D6C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +317,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4005885D1ABC6CFB00858D6C /* ProfilViewController.swift in Sources */,
+				4005885B1ABBDB7200858D6C /* LoginViewController.swift in Sources */,
+				400588591ABBD6F000858D6C /* SignUpViewController.swift in Sources */,
 				4005880E1ABBA92600858D6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,9 +435,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Widoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Widoo/Widoo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -334,9 +452,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Widoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Widoo/Widoo-Bridging-Header.h";
 			};
 			name = Release;
 		};
