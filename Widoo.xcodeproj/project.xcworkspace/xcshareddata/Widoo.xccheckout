@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>973CDB17-D2F8-4E0A-B9A3-DB9CC426EC72</string>
+=======
+	<string>0D89AEB4-452E-47D8-911C-D8C9C605A28D</string>
+>>>>>>> origin/my--branch-with-map
 	<key>IDESourceControlProjectName</key>
 	<string>Widoo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +38,11 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>DDD51B212574AAFD3D2B05B731046F0FC4168927</string>
 			<key>IDESourceControlWCCName</key>
+<<<<<<< HEAD
 			<string>Widoo</string>
+=======
+			<string>WidooApp</string>
+>>>>>>> origin/my--branch-with-map
 		</dict>
 	</array>
 </dict>
