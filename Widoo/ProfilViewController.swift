@@ -29,7 +29,7 @@ class ProfilViewController: UIViewController {
         
         var user = PFUser.currentUser()
         
-        usernameLbl.text = user.username
+        //usernameLbl.text = user.username
     }
 
     override func didReceiveMemoryWarning() {
