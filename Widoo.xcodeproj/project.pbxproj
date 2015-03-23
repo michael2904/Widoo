@@ -37,6 +37,8 @@
 		400588631ABC9E9400858D6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400588621ABC9E9400858D6C /* Images.xcassets */; };
 		400588651ABCA6C900858D6C /* widoo_rouge.png in Resources */ = {isa = PBXBuildFile; fileRef = 400588641ABCA6C900858D6C /* widoo_rouge.png */; };
 		400588671ABCA6EF00858D6C /* widoo_rougeCroped.png in Resources */ = {isa = PBXBuildFile; fileRef = 400588661ABCA6EF00858D6C /* widoo_rougeCroped.png */; };
+		7CF7A0531ABFAEDE00489D79 /* SWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */; };
+		7CF7A0551AC06DEF00489D79 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF7A0541AC06DEF00489D79 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		400588621ABC9E9400858D6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		400588641ABCA6C900858D6C /* widoo_rouge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widoo_rouge.png; sourceTree = "<group>"; };
 		400588661ABCA6EF00858D6C /* widoo_rougeCroped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widoo_rougeCroped.png; sourceTree = "<group>"; };
+		7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWViewController.swift; path = ../SWViewController.swift; sourceTree = "<group>"; };
+		7CF7A0541AC06DEF00489D79 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 			files = (
 				400588551ABBD64F00858D6C /* Social.framework in Frameworks */,
 				400588531ABBD64500858D6C /* Accounts.framework in Frameworks */,
+				7CF7A0551AC06DEF00489D79 /* MapKit.framework in Frameworks */,
 				4005883C1ABBA9C000858D6C /* libsqlite3.dylib in Frameworks */,
 				4005884D1ABBAE6100858D6C /* ParseCrashReporting.framework in Frameworks */,
 				4005883D1ABBA9C000858D6C /* libz.dylib in Frameworks */,
@@ -158,6 +163,7 @@
 				400588581ABBD6F000858D6C /* SignUpViewController.swift */,
 				4005885A1ABBDB7200858D6C /* LoginViewController.swift */,
 				4005885C1ABC6CFB00858D6C /* ProfilViewController.swift */,
+				7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */,
 			);
 			path = Widoo;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 		400588421ABBAA3A00858D6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CF7A0541AC06DEF00489D79 /* MapKit.framework */,
 				400588541ABBD64F00858D6C /* Social.framework */,
 				400588521ABBD64500858D6C /* Accounts.framework */,
 				400588461ABBAE6100858D6C /* Bolts.framework */,
@@ -262,7 +269,12 @@
 				TargetAttributes = {
 					400588071ABBA92600858D6C = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 2S3D8J8M3T;
+						DevelopmentTeam = VMS2U83GP5;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					400588191ABBA92600858D6C = {
 						CreatedOnToolsVersion = 6.2;
@@ -320,6 +332,7 @@
 				4005885D1ABC6CFB00858D6C /* ProfilViewController.swift in Sources */,
 				4005885B1ABBDB7200858D6C /* LoginViewController.swift in Sources */,
 				400588591ABBD6F000858D6C /* SignUpViewController.swift in Sources */,
+				7CF7A0531ABFAEDE00489D79 /* SWViewController.swift in Sources */,
 				4005880E1ABBA92600858D6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,10 +454,12 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Widoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Widoo/Widoo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,9 +473,11 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Widoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Widoo/Widoo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -477,6 +494,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = WidooTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Widoo.app/Widoo";
@@ -492,6 +510,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = WidooTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Widoo.app/Widoo";
@@ -517,6 +536,7 @@
 				400588261ABBA92600858D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		400588271ABBA92600858D6C /* Build configuration list for PBXNativeTarget "WidooTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +545,7 @@
 				400588291ABBA92600858D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
