@@ -12,10 +12,12 @@ class Coupon{
     
     var label = "label"
     var image = "blank"
+    var progress:Float = 0.0
     
-    init(name:String, imageName:String){
+    init(name:String, imageName:String, progressVal:Float){
         self.label = name
         self.image = imageName
+        self.progress = progressVal
     }
     
 }

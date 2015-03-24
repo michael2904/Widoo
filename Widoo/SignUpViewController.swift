@@ -88,6 +88,7 @@ class SignUpViewController: UIViewController {
             newUser.username = username
             newUser.password = password
             newUser.email = email
+            newUser["distance"] = 0
             newUser.signUpInBackgroundWithBlock({ (succeed, error) -> Void in
             
                 self.actInd.stopAnimating()

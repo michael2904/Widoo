@@ -11,7 +11,9 @@ import UIKit
 class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
 
+    @IBOutlet weak var distanceVal: UILabel!
     @IBOutlet weak var myTableView: UITableView!
+
     
     var arrayOfCoupons: [Coupon] = [Coupon]()
     
@@ -19,6 +21,9 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.setUpCoupons()
+        //let curUser = PFUser.currentUser()
+        //let userDist = curUser["distance"] as String
+        distanceVal.text = "30 km"
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,9 +33,12 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
     
     func setUpCoupons(){
         
-        var coupon1 = Coupon(name: "Sports Expert 20% off", imageName: "SportExpert.png")
-        var coupon2 = Coupon(name: "Sports Expert 40% off", imageName: "SportExpert.png")
-        var coupon3 = Coupon(name: "LuluLemon 20% off", imageName: "LuluModified.png")
+        var coupon1 = Coupon(name: "Sports Expert 20% off",imageName: "SportExpert.png",progressVal: 0.3)
+
+        var coupon2 = Coupon(name: "Sports Expert 40% off", imageName: "SportExpert.png",progressVal: 0.2)
+        
+        var coupon3 = Coupon(name: "LuluLemon 20% off",imageName: "LuluModified.png",progressVal: 0.3)
+        
         arrayOfCoupons.append(coupon1)
         arrayOfCoupons.append(coupon2)
         arrayOfCoupons.append(coupon3)
@@ -46,15 +54,12 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
         
         let cell: CouponsTableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell") as CouponsTableViewCell
         
-        if (indexPath.row % 2 == 0 ){
-            cell.backgroundColor = UIColor.redColor()
-        }else{
-            cell.backgroundColor = UIColor.blueColor()
-        }
+            cell.backgroundColor = UIColor.grayColor()
+       
         
         let coupon = arrayOfCoupons[indexPath.row]
         
-        cell.setCell(coupon.label, imageView: coupon.image)
+        cell.setCell(coupon.label, imageView: coupon.image, progressValue: coupon.progress)
         
         return cell
         

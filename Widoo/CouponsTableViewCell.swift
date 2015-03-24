@@ -12,6 +12,7 @@ class CouponsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var couponLabel: UILabel!
     @IBOutlet weak var couponImage: UIImageView!
+    @IBOutlet weak var couponProgress: UIProgressView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -24,11 +25,11 @@ class CouponsTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setCell(labelText:String, imageView:String){
+    func setCell(labelText:String, imageView:String, progressValue:Float){
         
         self.couponLabel.text = labelText
         self.couponImage.image = UIImage(named: imageView)
-        
+        self.couponProgress.setProgress(progressValue, animated: true)
     }
 
 }
