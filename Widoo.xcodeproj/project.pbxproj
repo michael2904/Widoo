@@ -37,6 +37,9 @@
 		400588631ABC9E9400858D6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400588621ABC9E9400858D6C /* Images.xcassets */; };
 		400588651ABCA6C900858D6C /* widoo_rouge.png in Resources */ = {isa = PBXBuildFile; fileRef = 400588641ABCA6C900858D6C /* widoo_rouge.png */; };
 		400588671ABCA6EF00858D6C /* widoo_rougeCroped.png in Resources */ = {isa = PBXBuildFile; fileRef = 400588661ABCA6EF00858D6C /* widoo_rougeCroped.png */; };
+		403B89041AC1F93700E4AA61 /* CouponsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B89031AC1F93700E4AA61 /* CouponsViewController.swift */; };
+		403B89071AC1F94300E4AA61 /* CouponsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B89051AC1F94300E4AA61 /* CouponsTableViewCell.swift */; };
+		403B89081AC1F94300E4AA61 /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B89061AC1F94300E4AA61 /* Coupon.swift */; };
 		7CF7A0531ABFAEDE00489D79 /* SWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */; };
 		7CF7A0551AC06DEF00489D79 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF7A0541AC06DEF00489D79 /* MapKit.framework */; };
 /* End PBXBuildFile section */
@@ -87,6 +90,9 @@
 		400588621ABC9E9400858D6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		400588641ABCA6C900858D6C /* widoo_rouge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widoo_rouge.png; sourceTree = "<group>"; };
 		400588661ABCA6EF00858D6C /* widoo_rougeCroped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widoo_rougeCroped.png; sourceTree = "<group>"; };
+		403B89031AC1F93700E4AA61 /* CouponsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponsViewController.swift; sourceTree = "<group>"; };
+		403B89051AC1F94300E4AA61 /* CouponsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponsTableViewCell.swift; sourceTree = "<group>"; };
+		403B89061AC1F94300E4AA61 /* Coupon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
 		7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWViewController.swift; path = ../SWViewController.swift; sourceTree = "<group>"; };
 		7CF7A0541AC06DEF00489D79 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -158,6 +164,9 @@
 				4005880F1ABBA92600858D6C /* Widoo-Prefix.pch */,
 				400588131ABBA92600858D6C /* LaunchScreen.xib */,
 				400588621ABC9E9400858D6C /* Images.xcassets */,
+				403B89031AC1F93700E4AA61 /* CouponsViewController.swift */,
+				403B89051AC1F94300E4AA61 /* CouponsTableViewCell.swift */,
+				403B89061AC1F94300E4AA61 /* Coupon.swift */,
 				4005880B1ABBA92600858D6C /* Supporting Files */,
 				400588501ABBD08B00858D6C /* Storyboard.storyboard */,
 				400588581ABBD6F000858D6C /* SignUpViewController.swift */,
@@ -269,7 +278,7 @@
 				TargetAttributes = {
 					400588071ABBA92600858D6C = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = VMS2U83GP5;
+						DevelopmentTeam = 2S3D8J8M3T;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -278,6 +287,7 @@
 					};
 					400588191ABBA92600858D6C = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 2S3D8J8M3T;
 						TestTargetID = 400588071ABBA92600858D6C;
 					};
 				};
@@ -329,10 +339,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403B89041AC1F93700E4AA61 /* CouponsViewController.swift in Sources */,
 				4005885D1ABC6CFB00858D6C /* ProfilViewController.swift in Sources */,
 				4005885B1ABBDB7200858D6C /* LoginViewController.swift in Sources */,
+				403B89081AC1F94300E4AA61 /* Coupon.swift in Sources */,
 				400588591ABBD6F000858D6C /* SignUpViewController.swift in Sources */,
 				7CF7A0531ABFAEDE00489D79 /* SWViewController.swift in Sources */,
+				403B89071AC1F94300E4AA61 /* CouponsTableViewCell.swift in Sources */,
 				4005880E1ABBA92600858D6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
