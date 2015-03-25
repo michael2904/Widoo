@@ -25,6 +25,9 @@ class ProfilViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func infoBut(sender: AnyObject) {
+        self.performSegueWithIdentifier("info", sender: nil)
+    }
     override func viewDidAppear(animated: Bool) {
         
         var user = PFUser.currentUser()

@@ -8,11 +8,14 @@
 
 import UIKit
 
-class CouponsTableViewCell: UITableViewCell {
+class CouponsTableViewCell: PFTableViewCell {
     
     @IBOutlet weak var couponLabel: UILabel!
-    @IBOutlet weak var couponImage: UIImageView!
+    @IBOutlet weak var couponImage: PFImageView!
     @IBOutlet weak var couponProgress: UIProgressView!
+    @IBOutlet weak var couponDesc: UILabel!
+    @IBOutlet weak var couponLock: UIImageView!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,11 +28,12 @@ class CouponsTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setCell(labelText:String, imageView:String, progressValue:Float){
+    func setCell(labelText:String, imageView:String, progressValue:Float,descText: String){
         
         self.couponLabel.text = labelText
         self.couponImage.image = UIImage(named: imageView)
         self.couponProgress.setProgress(progressValue, animated: true)
+        self.couponDesc.text = descText
     }
 
 }

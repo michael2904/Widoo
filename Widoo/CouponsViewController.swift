@@ -31,13 +31,26 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        // Get the new view controller using [segue destinationViewController].
+        var detailScene = segue.destinationViewController as CouponDetailViewController
+        
+        // Pass the selected object to the destination view controller.
+        if let indexPath = self.myTableView.indexPathForSelectedRow() {
+            let row = Int(indexPath.row)
+            detailScene.currentObject = objects[row] as? PFObject
+        }
+    }
+    
     func setUpCoupons(){
         
-        var coupon1 = Coupon(name: "Sports Expert 20% off",imageName: "SportExpert.png",progressVal: 0.3)
+        var coupon1 = Coupon(name: "Sports Expert 20% off",imageName: "SportExpert.png",progressVal: 1.0, descVal:"Besoin de 20km pour debloquer")
 
-        var coupon2 = Coupon(name: "Sports Expert 40% off", imageName: "SportExpert.png",progressVal: 0.2)
+        var coupon2 = Coupon(name: "Sports Expert 40% off", imageName: "SportExpert.png",progressVal: 0.75, descVal:"Besoin de 40km pour debloquer")
         
-        var coupon3 = Coupon(name: "LuluLemon 20% off",imageName: "LuluModified.png",progressVal: 0.3)
+        var coupon3 = Coupon(name: "LuluLemon 20% off",imageName: "LuluModified.png",progressVal: 0.6, descVal:"Besoin de 50km pour debloquer")
         
         arrayOfCoupons.append(coupon1)
         arrayOfCoupons.append(coupon2)
@@ -54,12 +67,19 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
         
         let cell: CouponsTableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell") as CouponsTableViewCell
         
-            cell.backgroundColor = UIColor.grayColor()
+            cell.backgroundColor = UIColor.lightGrayColor()
        
         
         let coupon = arrayOfCoupons[indexPath.row]
         
-        cell.setCell(coupon.label, imageView: coupon.image, progressValue: coupon.progress)
+        cell.setCell(coupon.label, imageView: coupon.image, progressValue: coupon.progress, descText: coupon.description)
+        
+        if coupon.progress == 1.0{
+            cell.couponLock.image = UIImage(named:"")
+        }else{
+            cell.couponLock.image = UIImage(named:"Lock")
+
+        }
         
         return cell
         

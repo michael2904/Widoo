@@ -40,6 +40,9 @@
 		403B89041AC1F93700E4AA61 /* CouponsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B89031AC1F93700E4AA61 /* CouponsViewController.swift */; };
 		403B89071AC1F94300E4AA61 /* CouponsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B89051AC1F94300E4AA61 /* CouponsTableViewCell.swift */; };
 		403B89081AC1F94300E4AA61 /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B89061AC1F94300E4AA61 /* Coupon.swift */; };
+		403B890E1AC23A0F00E4AA61 /* unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 403B890D1AC23A0F00E4AA61 /* unknown.png */; };
+		403B89121AC2403100E4AA61 /* Lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 403B89111AC2403100E4AA61 /* Lock.png */; };
+		403B89151AC243C000E4AA61 /* CouponDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B89141AC243C000E4AA61 /* CouponDetailViewController.swift */; };
 		7CF7A0531ABFAEDE00489D79 /* SWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */; };
 		7CF7A0551AC06DEF00489D79 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF7A0541AC06DEF00489D79 /* MapKit.framework */; };
 /* End PBXBuildFile section */
@@ -93,6 +96,9 @@
 		403B89031AC1F93700E4AA61 /* CouponsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponsViewController.swift; sourceTree = "<group>"; };
 		403B89051AC1F94300E4AA61 /* CouponsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponsTableViewCell.swift; sourceTree = "<group>"; };
 		403B89061AC1F94300E4AA61 /* Coupon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		403B890D1AC23A0F00E4AA61 /* unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknown.png; sourceTree = "<group>"; };
+		403B89111AC2403100E4AA61 /* Lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lock.png; sourceTree = "<group>"; };
+		403B89141AC243C000E4AA61 /* CouponDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponDetailViewController.swift; sourceTree = "<group>"; };
 		7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWViewController.swift; path = ../SWViewController.swift; sourceTree = "<group>"; };
 		7CF7A0541AC06DEF00489D79 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -139,7 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				400588661ABCA6EF00858D6C /* widoo_rougeCroped.png */,
+				403B890D1AC23A0F00E4AA61 /* unknown.png */,
 				400588641ABCA6C900858D6C /* widoo_rouge.png */,
+				403B89111AC2403100E4AA61 /* Lock.png */,
 				400588421ABBAA3A00858D6C /* Frameworks */,
 				4005880A1ABBA92600858D6C /* Widoo */,
 				4005881D1ABBA92600858D6C /* WidooTests */,
@@ -170,6 +178,7 @@
 				4005880B1ABBA92600858D6C /* Supporting Files */,
 				400588501ABBD08B00858D6C /* Storyboard.storyboard */,
 				400588581ABBD6F000858D6C /* SignUpViewController.swift */,
+				403B89141AC243C000E4AA61 /* CouponDetailViewController.swift */,
 				4005885A1ABBDB7200858D6C /* LoginViewController.swift */,
 				4005885C1ABC6CFB00858D6C /* ProfilViewController.swift */,
 				7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */,
@@ -317,8 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				400588671ABCA6EF00858D6C /* widoo_rougeCroped.png in Resources */,
+				403B890E1AC23A0F00E4AA61 /* unknown.png in Resources */,
 				400588101ABBA92600858D6C /* Widoo-Prefix.pch in Resources */,
 				400588631ABC9E9400858D6C /* Images.xcassets in Resources */,
+				403B89121AC2403100E4AA61 /* Lock.png in Resources */,
 				400588651ABCA6C900858D6C /* widoo_rouge.png in Resources */,
 				400588511ABBD08B00858D6C /* Storyboard.storyboard in Resources */,
 				400588151ABBA92600858D6C /* LaunchScreen.xib in Resources */,
@@ -339,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403B89151AC243C000E4AA61 /* CouponDetailViewController.swift in Sources */,
 				403B89041AC1F93700E4AA61 /* CouponsViewController.swift in Sources */,
 				4005885D1ABC6CFB00858D6C /* ProfilViewController.swift in Sources */,
 				4005885B1ABBDB7200858D6C /* LoginViewController.swift in Sources */,

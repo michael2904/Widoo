@@ -296,7 +296,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ebL-20-8J3" kind="show" id="lir-R7-g43"/>
+                                    <action selector="infoBut:" destination="2Sl-cR-p2z" eventType="touchUpInside" id="9gp-uq-ukR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtO-xm-7Z4">
@@ -326,6 +326,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="eRP-I0-X5D"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="ebL-20-8J3" kind="show" identifier="info" id="unO-k9-Oxu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JeS-RY-xfj" sceneMemberID="firstResponder"/>
             </objects>
@@ -697,36 +700,48 @@ Soutenir l’avancement de l’enseignement en médecine pédiatrique.</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="rv5-PV-XFI">
-                                <rect key="frame" x="0.0" y="107" width="375" height="560"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="rv5-PV-XFI">
+                                <rect key="frame" x="0.0" y="114" width="375" height="553"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexTrackingBackgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="NZD-OB-2YD" customClass="CouponsTableViewCell" customModule="Widoo" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="90" id="NZD-OB-2YD" customClass="CouponsTableViewCell" customModule="Widoo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NZD-OB-2YD" id="Dxi-Mk-YH4">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="06e-mg-R5f">
-                                                    <rect key="frame" x="8" y="8" width="64" height="64"/>
+                                                    <rect key="frame" x="8" y="1" width="81" height="81"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyq-Gt-KtZ">
-                                                    <rect key="frame" x="80" y="8" width="277" height="41"/>
+                                                    <rect key="frame" x="97" y="0.0" width="270" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SH6-f7-S8c">
-                                                    <rect key="frame" x="109" y="63" width="218" height="2"/>
+                                                    <rect key="frame" x="123" y="80" width="218" height="2"/>
+                                                    <color key="progressTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </progressView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5X6-BO-gn2">
+                                                    <rect key="frame" x="97" y="31" width="207" height="41"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Rw-rS-Fyp">
+                                                    <rect key="frame" x="333" y="38" width="34" height="34"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="couponDesc" destination="5X6-BO-gn2" id="gxn-RV-Cxv"/>
                                             <outlet property="couponImage" destination="06e-mg-R5f" id="t8p-SX-hIA"/>
                                             <outlet property="couponLabel" destination="qyq-Gt-KtZ" id="Iyh-jA-hL9"/>
+                                            <outlet property="couponLock" destination="1Rw-rS-Fyp" id="cHL-3F-O4x"/>
                                             <outlet property="couponProgress" destination="SH6-f7-S8c" id="a2X-Ep-a8Q"/>
                                         </connections>
                                     </tableViewCell>
@@ -766,9 +781,10 @@ Soutenir l’avancement de l’enseignement en médecine pédiatrique.</string>
         <!--Profil-->
         <scene sceneID="99g-mb-wgW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lkH-hY-PqL" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lkH-hY-PqL" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profil" image="user1" id="9rB-nE-hzy"/>
                     <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MZn-mb-2M2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -780,7 +796,7 @@ Soutenir l’avancement de l’enseignement en médecine pédiatrique.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7w-ry-jPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4145.5" y="-1315.5"/>
+            <point key="canvasLocation" x="2599.5" y="-195.5"/>
         </scene>
     </scenes>
     <resources>
