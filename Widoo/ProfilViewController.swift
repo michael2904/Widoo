@@ -41,6 +41,13 @@ class ProfilViewController: UIViewController {
     }
     
 
+    @IBAction func logOut(sender: AnyObject) {
+        if(PFUser.currentUser() != nil){
+            PFUser.logOut()
+        }
+        //self.performSegueWithIdentifier("logOut", sender: nil)
+
+    }
     /*
     // MARK: - Navigation
 

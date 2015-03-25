@@ -31,7 +31,7 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    /*// In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         // Get the new view controller using [segue destinationViewController].
@@ -42,7 +42,7 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
             let row = Int(indexPath.row)
             detailScene.currentObject = objects[row] as? PFObject
         }
-    }
+    }*/
     
     func setUpCoupons(){
         
@@ -67,11 +67,8 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
         
         let cell: CouponsTableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell") as CouponsTableViewCell
         
-<<<<<<< HEAD
             cell.backgroundColor = UIColor.lightGrayColor()
-=======
-            cell.backgroundColor = UIColor.whiteColor()
->>>>>>> adding-profile-info
+
        
         
         let coupon = arrayOfCoupons[indexPath.row]
