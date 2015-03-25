@@ -54,7 +54,7 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
         
         let cell: CouponsTableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell") as CouponsTableViewCell
         
-            cell.backgroundColor = UIColor.grayColor()
+            cell.backgroundColor = UIColor.whiteColor()
        
         
         let coupon = arrayOfCoupons[indexPath.row]
