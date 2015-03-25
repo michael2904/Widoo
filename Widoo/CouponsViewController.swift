@@ -67,7 +67,11 @@ class CouponsViewController: UIViewController,UITableViewDataSource,UITableViewD
         
         let cell: CouponsTableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell") as CouponsTableViewCell
         
+<<<<<<< HEAD
             cell.backgroundColor = UIColor.lightGrayColor()
+=======
+            cell.backgroundColor = UIColor.whiteColor()
+>>>>>>> adding-profile-info
        
         
         let coupon = arrayOfCoupons[indexPath.row]
