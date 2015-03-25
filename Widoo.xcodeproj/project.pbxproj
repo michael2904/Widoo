@@ -28,7 +28,6 @@
 		4005884D1ABBAE6100858D6C /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588481ABBAE6100858D6C /* ParseCrashReporting.framework */; };
 		4005884E1ABBAE6100858D6C /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588491ABBAE6100858D6C /* ParseFacebookUtils.framework */; };
 		4005884F1ABBAE6100858D6C /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4005884A1ABBAE6100858D6C /* ParseUI.framework */; };
-		400588511ABBD08B00858D6C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400588501ABBD08B00858D6C /* Storyboard.storyboard */; };
 		400588531ABBD64500858D6C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588521ABBD64500858D6C /* Accounts.framework */; };
 		400588551ABBD64F00858D6C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400588541ABBD64F00858D6C /* Social.framework */; };
 		400588591ABBD6F000858D6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400588581ABBD6F000858D6C /* SignUpViewController.swift */; };
@@ -45,6 +44,7 @@
 		403B89151AC243C000E4AA61 /* CouponDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B89141AC243C000E4AA61 /* CouponDetailViewController.swift */; };
 		7CF7A0531ABFAEDE00489D79 /* SWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */; };
 		7CF7A0551AC06DEF00489D79 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF7A0541AC06DEF00489D79 /* MapKit.framework */; };
+		7CF7A0891AC30E9B00489D79 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF7A0881AC30E9B00489D79 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +84,6 @@
 		400588481ABBAE6100858D6C /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
 		400588491ABBAE6100858D6C /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		4005884A1ABBAE6100858D6C /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		400588501ABBD08B00858D6C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		400588521ABBD64500858D6C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		400588541ABBD64F00858D6C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		400588581ABBD6F000858D6C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +100,7 @@
 		403B89141AC243C000E4AA61 /* CouponDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponDetailViewController.swift; sourceTree = "<group>"; };
 		7CF7A0521ABFAEDE00489D79 /* SWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWViewController.swift; path = ../SWViewController.swift; sourceTree = "<group>"; };
 		7CF7A0541AC06DEF00489D79 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7CF7A0881AC30E9B00489D79 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,12 +171,12 @@
 				4005880D1ABBA92600858D6C /* AppDelegate.swift */,
 				4005880F1ABBA92600858D6C /* Widoo-Prefix.pch */,
 				400588131ABBA92600858D6C /* LaunchScreen.xib */,
+				7CF7A0881AC30E9B00489D79 /* Storyboard.storyboard */,
 				400588621ABC9E9400858D6C /* Images.xcassets */,
 				403B89031AC1F93700E4AA61 /* CouponsViewController.swift */,
 				403B89051AC1F94300E4AA61 /* CouponsTableViewCell.swift */,
 				403B89061AC1F94300E4AA61 /* Coupon.swift */,
 				4005880B1ABBA92600858D6C /* Supporting Files */,
-				400588501ABBD08B00858D6C /* Storyboard.storyboard */,
 				400588581ABBD6F000858D6C /* SignUpViewController.swift */,
 				403B89141AC243C000E4AA61 /* CouponDetailViewController.swift */,
 				4005885A1ABBDB7200858D6C /* LoginViewController.swift */,
@@ -330,8 +330,8 @@
 				400588101ABBA92600858D6C /* Widoo-Prefix.pch in Resources */,
 				400588631ABC9E9400858D6C /* Images.xcassets in Resources */,
 				403B89121AC2403100E4AA61 /* Lock.png in Resources */,
+				7CF7A0891AC30E9B00489D79 /* Storyboard.storyboard in Resources */,
 				400588651ABCA6C900858D6C /* widoo_rouge.png in Resources */,
-				400588511ABBD08B00858D6C /* Storyboard.storyboard in Resources */,
 				400588151ABBA92600858D6C /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
