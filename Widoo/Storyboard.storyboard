@@ -682,6 +682,14 @@ Soutenir l’avancement de l’enseignement en médecine pédiatrique.</string>
                                     <segue destination="IBZ-pG-mzp" kind="show" id="r3O-AU-vk4"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVO-Lz-cD0">
+                                <rect key="frame" x="77" y="310" width="220" height="47"/>
+                                <color key="backgroundColor" red="0.85490196080000003" green="0.066666666669999999" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Rentabiliser le don d'un ami">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.83529411760000005" green="0.83529411760000005" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -813,7 +821,13 @@ Soutenir l’avancement de l’enseignement en médecine pédiatrique.</string>
                             <constraint firstItem="BsQ-4l-HLU" firstAttribute="top" secondItem="97W-bO-kaY" secondAttribute="bottom" constant="1" id="zzs-fb-COc"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Widoo" id="4IT-B9-1py"/>
+                    <navigationItem key="navigationItem" title="Widoo" id="4IT-B9-1py">
+                        <barButtonItem key="rightBarButtonItem" title="Share" id="LgZ-bV-PuN">
+                            <connections>
+                                <action selector="shareButton:" destination="IBZ-pG-mzp" id="Ulb-h4-IVm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="DisplayTimeLabel" destination="5wN-6V-yxm" id="NxS-Hy-b7G"/>

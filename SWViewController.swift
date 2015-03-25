@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 import MapKit
 
 class SWViewController: UIViewController, MKMapViewDelegate {
@@ -80,6 +81,31 @@ class SWViewController: UIViewController, MKMapViewDelegate {
         timer.invalidate()
         
     }
+
+    
+    
+    
+    @IBAction func shareButton(sender: AnyObject) {
+        if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook) {
+            var fbShare:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+            
+            self.presentViewController(fbShare, animated: true, completion: nil)
+            
+        } else {
+            var alert = UIAlertController(title: "Accounts", message: "Please login to a Facebook account to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
+
+        
+        
+    }
+    
+    
     
 }
+
+
+
 
